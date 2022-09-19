@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>Plataforma gestión de notas</title>
+  </head>
+  <body> 
+    <div style="width: 100%; display:flex;">
+    <div style=width: 15%;">
+    <h3 name="nombreEstudiante">Nombre estudiante</h1>
+    </div>
+    <div style=width: 30%;">
+    <img src="iconoestudiante.jpg" alt="Italian Trulli">
+    </div>
+    </div>
+
+
+    <div style="width: 100%; display:flex;">
+    <br>
+
+    <div style="width: 30%;">
+    <h4 name="infPersonal">Información Personal</h2>
+    <h4 name="matInscritas">Materias inscritas</h2>
+    <h4 name="notas">Notas</h2>
+    <h4 name="actividades">Actividades</h2>
+    <h4>Cerrar sesión</h2>
+    </div>
+    <br>
+    
+    <div style="width:60%; display:flex;">
+    <div style="width: 30%;">
+	   <img src="iconoestudiante.jpg" alt="Italian Trulli">
+    </div>
+    <div style="width: 70%;">
+     <table>
+      <tr>
+      <td >Nombre: </td>
+      <td name="nombre">Aquí va el nombre</td>
+      </tr>
+      <tr>
+      <td>Apellido: </td>
+      <td name="Apellido">Aqui va el apellido</td>
+      </tr>
+      <tr>
+      <td>Id: </td>
+      <td name"id">Aquí va el ID</td>
+      </tr>
+      <tr>
+      <td>Email: </td>
+      <td name="correo">Aquí va el email</td>
+      </tr>
+     </table>
+    </div>
+    </div>
+    </div>
+  </body>
+</html>
