@@ -1,0 +1,49 @@
+table,th,td{
+    border:1px solid black;
+    border-collapse: collapse;
+    padding: 15px;
+    text-align: center;
+}
+
+header{
+    display: flex;
+    justify-content:right;
+    align-items: center;
+}
+
+.cuerpo{
+    display: flex;
+}
+
+div{
+    margin: 10px;
+    /*border-style: ridge;*/
+}
+
+.imagen{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    border-style:ridge;
+    border-color:blue;
+}
+
+.menu{
+    width: 20%;
+    border-radius: 0%;
+    border-style:solid;
+}
+
+.Btn_menu{
+    width: 100%;
+    height:40px;
+    border-radius: 5px;
+    font-size:larger;
+    font-style:italic;
+}
+
+.datos{
+    width: 80%;
+    border-radius: 0%;
+    border-style:solid;
+}
