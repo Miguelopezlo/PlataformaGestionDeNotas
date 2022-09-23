@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plataforma gestión de notas</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <div>
+            <p><font size="6">Pepito Perez</font></p>
+        </div>
+        <div>
+            <!--<img class="imagen" src="images/IconoEstudiante.png" alt="">-->
+            <img class="imagen" src="images/Estudiante.jpg" alt="">
+        </div>
+    </header>
+    <div class="cuerpo">
+        <div class="menu">
+            <aside>
+                <div>
+                    <a href="informacionEstudiante.html"><input type="button" class="Btn_menu" id="InfoPersonal" value="Informacion Personal"></a>
+                </div>
+                <div>
+                    <a href="materiasInsEstudiante.html"><input type="button" id="MatInsc" class="Btn_menu" value="Materias Inscritas"></a>
+                </div>
+                <div>
+                    <a href="notasMateria.html"><input type="button" id="notas" class="Btn_menu" value="Notas"></a>
+                </div>
+                <div>
+                    <a href="actividadesEstudiante.html"><input type="button" id="Activ" class="Btn_menu" value="Actividades"></a>
+                </div>
+                <div>
+                    <input type="button" id="cerrar" class="Btn_menu" value="Cerrar Sesion">
+                </div>
+            </aside>
+	</div>
+        <div class="datos">
+            <div>
+            <section>
+            <!--inicio datos extraidos de la base de datos-->
+                <table>
+                    <tr>
+                        <th>Materia</th>
+                        <th>Actividad</th>
+                        <th>Fecha Inicio</th>
+                        <th>Fecha Fin</th>
+                        <th>Nota</th>
+                        <th>Observaciones</th>
+                        <th>Subir</th>
+                    </tr>
+                    <tr>
+                        <td>Calculo</td>
+                        <td>Actividad1</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="file" name="Archivosubido"></td>
+                    </tr>
+                    <tr>
+                        <td>Calculo</td>
+                        <td>Actividad2</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="file" name="Archivosubido"></td>
+                    </tr>
+                    <tr>
+                        <td>Calculo</td>
+                        <td>Actividad3</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="file" name="Archivosubido"></td>
+                    </tr>
+                    <tr>
+                        <td>Ingles</td>
+                        <td>Actividad1</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="file" name="Archivosubido"></td>
+                    </tr>
+                    <tr>
+                        <td>Ingles</td>
+                        <td>Actividad2</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="file" name="Archivosubido"></td>
+                    </tr>
+                    <tr>
+                        <td>Programacion</td>
+                        <td>Actividad1</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="file" name="Archivosubido"></td>
+                    </tr>
+                    <tr>
+                        <td>Calculo II</td>
+                        <td>Actividad1</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="file" name="Archivosubido"></td>
+                    </tr>
+                </table>
+            <!--fin datos extraidos de la base de datos-->
+            </section>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
