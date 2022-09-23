@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plataforma gestión de notas</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <div>
+            <p><font size="6">Super Administrador</font></p>
+        </div>
+        <div>
+            <!--<img class="imagen" src="images/IconoEstudiante.png" alt="">-->
+            <img class="imagen" src="images/Estudiante.jpg" alt="">
+        </div>
+    </header>
+    <div class="cuerpo">
+        <div class="menu">
+            <aside>
+                <div>
+                    <input type="button" id="crearMateria" class="Btn_menu" value="Crear Materias">
+                </div>
+                <div>
+                    <input type="button" id="crearUsuario" class="Btn_menu" value="Crear Usuarios">
+                </div>
+                <div>
+                    <input type="button" id="cerrar" class="Btn_menu" value="Cerrar Sesion">
+                </div>
+            </aside>
+        </div>
+        <div class="datos">
+            <div>
+            <section>
+            <!--inicio datos extraidos de la base de datos-->
+            <div style="padding-right: 0%;" class="form-buscar">
+                <input class="controls" type="text" name="buscar" value="" placeholder="">
+                <input class="buttons" type="submit" name="buscar" value="Buscar">
+            </div> 
+            <p></p>
+            <fieldset>
+                <legend>Materias</legend>
+                <p></p>
+                <div class="form-materias">
+                    <input class="controls" type="text" name="materia" value="" placeholder="">
+                    <input class="buttons" type="submit" name="agregar" value="Agregar">
+                    <input class="buttons" type="submit" name="quitar" value="Quitar">
+                </div>              
+            <table>
+                    <tr>
+                        <th>Materia</th>
+                        <th>Código</th>
+                        <th>Docente</th>
+                    </tr>
+                    <tr>
+                        <td>Calculo</td>
+                        <td>45450</td>
+                        <td>María Gómez</td>
+                    </tr>
+                    <tr>
+                        <td>Ingles</td>
+                        <td>45423</td>
+                        <td>Ingrid Rojas</td>
+                    </tr>
+                    <tr>
+                        <td>Programación</td>
+                        <td>45467</td>
+                        <td>Juan López</td>
+                    </tr>
+                    <tr>
+                        <td>Calculo II</td>
+                        <td>48756</td>
+                        <td>Andres González</td>
+                    </tr>
+
+                </table>
+            <!--fin datos extraidos de la base de datos-->
+            </section>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
